@@ -1,0 +1,87 @@
+html {
+    color: white;
+    background-color: #202f39;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+header > div span {
+    white-space: nowrap;
+    overflow: hidden;
+    /*text-transform: uppercase;*/
+}
+
+.top-config {
+    display: flex;
+    justify-content: center;
+}
+
+.top-content {
+    width: 1500px;
+    height: 50px;
+    border-bottom: lightblue;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+    font-size: 40px;
+    position: relative;
+
+}
+
+.top-content-items {
+    font-size: 40px;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.RightSideLinks {
+    gap: 20px;
+}
+
+.main-content{
+    align-self: start;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.main-content-items {
+    /*align-items: start;*/
+    border: lightblue;
+    border-style: solid;
+    border-width: 6px;
+    font-size: 130%;
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+
+
+}
+
+.mod1 {
+    display: flex;
+    justify-content: center;
+}
+
+.UtilHudMod {
+    padding-right: 20px;
+    width: 100%;
+    max-width: 200px;
+
+}
+
+.descAndTitle{
+
+}
