@@ -103,6 +103,7 @@ main{
     justify-content: start;
     border-style: solid;
     border-color: lightblue;
+    border-radius: 10px;
     max-width: 1000px;
 
 }
