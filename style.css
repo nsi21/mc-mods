@@ -22,10 +22,11 @@ header > div span {
 .top-config {
     display: flex;
     justify-content: center;
+    padding-top: 20px;
+
 }
 
 .top-content {
-    padding-top: 10px;
     width: 1500px;
     height: 50px;
     border-bottom: lightblue;
@@ -57,7 +58,7 @@ header > div span {
     justify-content: start;
 }
 
-main{
+main {
     color: white;
     text-align: center;
 }
@@ -71,30 +72,32 @@ main{
     flex-wrap: nowrap;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
     padding: 10px;
+    width: 800px;
 
 
 }
 
-.mod1 {
+.mod1, .mod2 {
     display: flex;
     justify-content: center;
 }
 
-.UtilHudMod {
+
+.UtilHudMod, .FullbrightMod, .ArmorDurabilityMod {
     padding-right: 20px;
     width: 100%;
     max-width: 200px;
 
 }
 
-.infoAboutMe{
+.infoAboutMe {
     display: flex;
     justify-content: center;
 }
 
-.BoxOne{
+.BoxOne {
     padding: 5px;
     align-self: center;
     flex-wrap: nowrap;
