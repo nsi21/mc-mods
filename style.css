@@ -110,3 +110,7 @@ main {
     max-width: 1000px;
 
 }
+
+.descAndTitle {
+    justify-items: start;
+}
